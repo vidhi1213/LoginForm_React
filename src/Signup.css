@@ -1,0 +1,73 @@
+.SignUp_style h1{
+    text-align: center;
+  }
+  .SignUp_style{
+    /* background-color: #1dcafd; */
+    width: 25%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  .SignUp_style form{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .SignUp_style form input{
+    margin: 15px 0;
+    padding: 10px;
+  }
+  .SignUp_style form button{
+    width: 150px;
+    padding: 7px;
+    background-color: white;
+    /* color: white; */
+    border: 1px solid  black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 15px 0;
+    cursor:pointer
+  }
+  .SignUp_style form button:hover{
+    width: 150px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border: 1px solid  black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 15px 0;
+    cursor:pointer
+  }
+  .Login_style_para{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+    color: #000;
+    letter-spacing: -.62px;
+    margin : 40px 0;
+  }
+  .Login_style_or{
+    font-family: "Pangea";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    /* line-height: 3rem; */
+    color: #000;
+    letter-spacing: -.48px;
+    margin: 8px 0 0 0;
+  }
+  .SignUp_style form a {
+    display: block;
+    /* font-family: "Pangea_medium"; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2.6rem;
+    color: #000;
+    text-decoration: none;
+  }
+  .SignUp_style i {
+    max-width: 25px;
+    height: 25px;
+  }

@@ -1,0 +1,20 @@
+.d_flex{
+    display:flex;
+    flex-direction: column;
+}
+
+.formWidth{
+    max-width: 700px;
+}
+
+.formgroup{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.formlabel{
+    margin-right: 10px;
+}
+.formbtn{
+    margin:20px 0;
+}

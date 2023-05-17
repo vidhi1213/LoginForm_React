@@ -1,0 +1,83 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .tab_active{
+    color: aquamarine;
+  }
+  
+.navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .sd_user_profile_user{
+    max-width: 100%;
+  }
+.user_info{
+  color:white;
+  font-size: 25px;
+  margin:0;
+  padding: 10px;
+  line-height: 1.6rem;
+}
+
+  .sd_menu_options .sd_hidden a{
+    /* text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;
+    padding: 20px;
+    line-height: 1.6rem;
+    color: white; */
+    display: none;
+  }
+
+  .sd_menu_options .sd_show a{
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin:0;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .sd_user_profile_user:hover ~ .sd_menu_options .sd_hidden a{
+    display: block;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin:0;
+    padding: 20px;
+    line-height: 1.6rem;
+    color: white;
+  }
+
+  .sd_hidden{
+    display: none;
+  }
+  
